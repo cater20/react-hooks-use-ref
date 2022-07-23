@@ -7,7 +7,7 @@ function Box() {
     const div = elementRef.current;
     console.log("Measurements: ", div.getBoundingClientRect());
   }
-  
+
   return (
     <div ref={elementRef}>
       <h1>Box</h1>
